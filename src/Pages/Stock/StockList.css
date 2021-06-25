@@ -1,0 +1,80 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  white-space: nowrap;
+  padding: 3px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #ccc;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #cccccc33;
+}
+
+#title {
+  background-color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.advanceSearchForm {
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.title {
+  margin: 5px 0;
+  color: black;
+  font-size: 22px;
+}
+
+#inputlabel {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 8px;
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.checkboxes {
+  display: inline-block;
+  width: auto;
+  padding-right: 0;
+  margin-top: 7px;
+  padding-top: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 22px;
+  padding-top: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.icon:hover,
+.icon:visited {
+  cursor: text;
+  background-color: transparent;
+  border: none;
+}
